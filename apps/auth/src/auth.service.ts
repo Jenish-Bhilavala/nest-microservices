@@ -10,8 +10,9 @@ export class AuthService {
     const products = [
       { name: 'John Doe', age: 40 },
       { name: 'Sara rose', age: 26 },
-      { name: 'Jack Son', age: 24 },
       { name: 'Mitchel Anderson', age: 30 },
+      { name: 'Jack Son', age: 24 },
+      { name: 'Maxi', age: 21 },
     ];
 
     if (products.length === 0) {
