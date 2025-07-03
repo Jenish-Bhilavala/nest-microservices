@@ -7,6 +7,7 @@ export class CatalogController {
   constructor(private readonly catalogService: CatalogService) {}
 
   @Get()
+  @ApiOperation({ summary: 'Health check' })
   getHello(): string {
     return this.catalogService.getHello();
   }
